@@ -1,3 +1,3 @@
 'user strict';
 
-angular.module('register', []);
+angular.module('register', ["web3"]);
