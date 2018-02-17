@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	http.Handle("/", http.FileServer(http.Dir("./static/html")))
-	http.Handle("/js", http.FileServer(http.Dir("./static/js")))
+	http.Handle("/", http.FileServer(http.Dir("./static")))
 	http.ListenAndServe(":8080", nil)
 }
