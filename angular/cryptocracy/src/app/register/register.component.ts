@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterComponent implements OnInit {
 
+  registeredName : string;
+
+  public register(){
+    console.log("this is maybe working???")
+    console.log(this.registeredName)
+  }
+
   constructor() { }
 
   ngOnInit() {
